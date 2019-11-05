@@ -1,0 +1,129 @@
+用户管理 zxg_user
+	id		主键id
+	username	用户的登陆名
+	password	用户的登陆密码
+	create_time	注册时间
+	update_time	更新时间
+	login_time	登陆时间
+	login_ip	登陆ip
+	nickname	昵称
+	name		真实姓名
+	id_card		身份证
+	phone		联系电话
+	qq		联系QQ
+	email		电子邮箱
+	sign		个人签名
+	icon		头像地址
+	user_money	账户余额
+	frozen_money	冻结资金
+	available_money	可用资金
+	status		状态值(该用户是否启用)
+
+用户的积分充值明细 zxg_account_recharge
+	id		主键id
+	username	用户名
+	order_id	单号
+	amount		该交易的金额
+	status		0：未到账 1：已到账（未到账时冻结资金会有信息）
+	create_time	订单创建的时间
+
+用户的积分提现明细 zxg_account_withdraw
+	id		主键id
+	username	用户名
+	order_id	单号
+	amount		该交易的金额
+	status		0：未到账 1：已到账（未到账时冻结资金会有信息）
+	create_time	订单创建的时间
+
+用户的冻结资金明细 zxg_account_frozen
+	id		主键id
+	username	用户名
+	order_id	单号（订单号，充值单号，提现单号）
+	content		冻结内容（订单，充值，提现）
+	amount		该交易的金额
+	create_time	订单创建的时间
+
+资金明细（何时记录数据）
+	支付代练费
+	获得代练费
+	支付保证金
+	获得保证金
+zxg_account_capital
+	id		主键id
+	username	用户名
+	order_id	单号(订单号)
+	content		流转说明
+	amount		交易的金额
+	status		状态值（判断支出还是收入，1：支出，2：收入）
+	create_time	数据创建的时间
+
+
+订单管理 zxg_order
+	id		int	主键id
+	user_id		int	发布订单的用户的主键id
+	order_id	varchar	订单号
+	game_id		int	游戏的主键id
+	game_area_id	int	游戏区的主键id
+	game_server_id	int	游戏服的主键id
+	game_type_id	int	代练类型的主键id
+	title		varchar	订单标题
+	price		decimal	订单价格
+	bond_safe	decimal	订单安全保险金
+	bond_eff	decimal	订单效率保险金
+	timelimit_day	int	订单时限，单位天
+	timelimit_hour	int	订单时限，单位小时
+	account		varchar	游戏账号
+	account_pwd	varchar	游戏密码
+	role_name	varchar	角色名
+	order_pwd	varchar	订单加密，用于指定打手接单
+	game_info	text	游戏信息
+	game_initPic	varchar 游戏初始状态，上传图片
+	require_info	text	代练要求
+	remark		text	备注，仅自己可见
+	link_man	varchar	联系人，默认游戏昵称，可自定义
+	link_phone	varchar	联系电话
+	link_qq		varchar	联系qq
+	is_top		int	是否置顶
+	create_time	int	订单创建时间
+	finish_time	int	订单完成时间
+	status		int	订单状态，（0：待接单，1：代练中，2：已结算）
+
+
+
+游戏管理 zxg_game
+	id		int	游戏主键id
+	name		varchar	游戏的名称
+	image_src	varchar	游戏图片
+	count		int	游戏代练数
+	cate_id		int	游戏类型，（0：端游，1：手游）
+
+代练类型 zxg_game_type
+	id		int	代练类型主键id
+	name 		varchar	代练类型名称
+	game_id		varchar	游戏的主键id
+
+游戏区管理	zxg_game_area
+	id		int	游戏区主键id
+	name		varchar	游戏区的名称
+	game_id		int	游戏的主键id
+
+游戏服管理	zxg_game_server
+	id		int	游戏服的主键id
+	name		varchar	游戏服的名称
+	area_id		int	游戏区的主键id	
+	
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+	
