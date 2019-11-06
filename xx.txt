@@ -113,7 +113,7 @@ zxg_account_capital
 	area_id		int	游戏区的主键id	
 	
 
-
+2222222
 
 
 
