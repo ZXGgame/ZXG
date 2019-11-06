@@ -1,120 +1,121 @@
-ÓÃ»§¹ÜÀí zxg_user
-	id		Ö÷¼üid
-	username	ÓÃ»§µÄµÇÂ½Ãû
-	password	ÓÃ»§µÄµÇÂ½ÃÜÂë
-	create_time	×¢²áÊ±¼ä
-	update_time	¸üĞÂÊ±¼ä
-	login_time	µÇÂ½Ê±¼ä
-	login_ip	µÇÂ½ip
-	nickname	êÇ³Æ
-	name		ÕæÊµĞÕÃû
-	id_card		Éí·İÖ¤
-	phone		ÁªÏµµç»°
-	qq		ÁªÏµQQ
-	email		µç×ÓÓÊÏä
-	sign		¸öÈËÇ©Ãû
-	icon		Í·ÏñµØÖ·
-	user_money	ÕË»§Óà¶î
-	frozen_money	¶³½á×Ê½ğ
-	available_money	¿ÉÓÃ×Ê½ğ
-	status		×´Ì¬Öµ(¸ÃÓÃ»§ÊÇ·ñÆôÓÃ)
+ç”¨æˆ·ç®¡ç† zxg_user
+	id		ä¸»é”®id
+	username	ç”¨æˆ·çš„ç™»é™†å
+	password	ç”¨æˆ·çš„ç™»é™†å¯†ç 
+	create_time	æ³¨å†Œæ—¶é—´
+	update_time	æ›´æ–°æ—¶é—´
+	login_time	ç™»é™†æ—¶é—´
+	login_ip	ç™»é™†ip
+	nickname	æ˜µç§°
+	name		çœŸå®å§“å
+	id_card		èº«ä»½è¯
+	phone		è”ç³»ç”µè¯
+	qq		è”ç³»QQ
+	email		ç”µå­é‚®ç®±
+	sign		ä¸ªäººç­¾å
+	icon		å¤´åƒåœ°å€
+	user_money	è´¦æˆ·ä½™é¢
+	frozen_money	å†»ç»“èµ„é‡‘
+	available_money	å¯ç”¨èµ„é‡‘
+	status		çŠ¶æ€å€¼(è¯¥ç”¨æˆ·æ˜¯å¦å¯ç”¨)
 
-ÓÃ»§µÄ»ı·Ö³äÖµÃ÷Ï¸ zxg_account_recharge
-	id		Ö÷¼üid
-	username	ÓÃ»§Ãû
-	order_id	µ¥ºÅ
-	amount		¸Ã½»Ò×µÄ½ğ¶î
-	status		0£ºÎ´µ½ÕË 1£ºÒÑµ½ÕË£¨Î´µ½ÕËÊ±¶³½á×Ê½ğ»áÓĞĞÅÏ¢£©
-	create_time	¶©µ¥´´½¨µÄÊ±¼ä
+ç”¨æˆ·çš„ç§¯åˆ†å……å€¼æ˜ç»† zxg_account_recharge
+	id		ä¸»é”®id
+	username	ç”¨æˆ·å
+	order_id	å•å·
+	amount		è¯¥äº¤æ˜“çš„é‡‘é¢
+	status		0ï¼šæœªåˆ°è´¦ 1ï¼šå·²åˆ°è´¦ï¼ˆæœªåˆ°è´¦æ—¶å†»ç»“èµ„é‡‘ä¼šæœ‰ä¿¡æ¯ï¼‰
+	create_time	è®¢å•åˆ›å»ºçš„æ—¶é—´
 
-ÓÃ»§µÄ»ı·ÖÌáÏÖÃ÷Ï¸ zxg_account_withdraw
-	id		Ö÷¼üid
-	username	ÓÃ»§Ãû
-	order_id	µ¥ºÅ
-	amount		¸Ã½»Ò×µÄ½ğ¶î
-	status		0£ºÎ´µ½ÕË 1£ºÒÑµ½ÕË£¨Î´µ½ÕËÊ±¶³½á×Ê½ğ»áÓĞĞÅÏ¢£©
-	create_time	¶©µ¥´´½¨µÄÊ±¼ä
+ç”¨æˆ·çš„ç§¯åˆ†æç°æ˜ç»† zxg_account_withdraw
+	id		ä¸»é”®id
+	username	ç”¨æˆ·å
+	order_id	å•å·
+	amount		è¯¥äº¤æ˜“çš„é‡‘é¢
+	status		0ï¼šæœªåˆ°è´¦ 1ï¼šå·²åˆ°è´¦ï¼ˆæœªåˆ°è´¦æ—¶å†»ç»“èµ„é‡‘ä¼šæœ‰ä¿¡æ¯ï¼‰
+	create_time	è®¢å•åˆ›å»ºçš„æ—¶é—´
 
-ÓÃ»§µÄ¶³½á×Ê½ğÃ÷Ï¸ zxg_account_frozen
-	id		Ö÷¼üid
-	username	ÓÃ»§Ãû
-	order_id	µ¥ºÅ£¨¶©µ¥ºÅ£¬³äÖµµ¥ºÅ£¬ÌáÏÖµ¥ºÅ£©
-	content		¶³½áÄÚÈİ£¨¶©µ¥£¬³äÖµ£¬ÌáÏÖ£©
-	amount		¸Ã½»Ò×µÄ½ğ¶î
-	create_time	¶©µ¥´´½¨µÄÊ±¼ä
+ç”¨æˆ·çš„å†»ç»“èµ„é‡‘æ˜ç»† zxg_account_frozen
+	id		ä¸»é”®id
+	username	ç”¨æˆ·å
+	order_id	å•å·ï¼ˆè®¢å•å·ï¼Œå……å€¼å•å·ï¼Œæç°å•å·ï¼‰
+	content		å†»ç»“å†…å®¹ï¼ˆè®¢å•ï¼Œå……å€¼ï¼Œæç°ï¼‰
+	amount		è¯¥äº¤æ˜“çš„é‡‘é¢
+	create_time	è®¢å•åˆ›å»ºçš„æ—¶é—´
 
-×Ê½ğÃ÷Ï¸£¨ºÎÊ±¼ÇÂ¼Êı¾İ£©
-	Ö§¸¶´úÁ··Ñ
-	»ñµÃ´úÁ··Ñ
-	Ö§¸¶±£Ö¤½ğ
-	»ñµÃ±£Ö¤½ğ
+èµ„é‡‘æ˜ç»†ï¼ˆä½•æ—¶è®°å½•æ•°æ®ï¼‰
+	æ”¯ä»˜ä»£ç»ƒè´¹
+	è·å¾—ä»£ç»ƒè´¹
+	æ”¯ä»˜ä¿è¯é‡‘
+	è·å¾—ä¿è¯é‡‘
 zxg_account_capital
-	id		Ö÷¼üid
-	username	ÓÃ»§Ãû
-	order_id	µ¥ºÅ(¶©µ¥ºÅ)
-	content		Á÷×ªËµÃ÷
-	amount		½»Ò×µÄ½ğ¶î
-	status		×´Ì¬Öµ£¨ÅĞ¶ÏÖ§³ö»¹ÊÇÊÕÈë£¬1£ºÖ§³ö£¬2£ºÊÕÈë£©
-	create_time	Êı¾İ´´½¨µÄÊ±¼ä
+	id		ä¸»é”®id
+	username	ç”¨æˆ·å
+	order_id	å•å·(è®¢å•å·)
+	content		æµè½¬è¯´æ˜
+	amount		äº¤æ˜“çš„é‡‘é¢
+	status		çŠ¶æ€å€¼ï¼ˆåˆ¤æ–­æ”¯å‡ºè¿˜æ˜¯æ”¶å…¥ï¼Œ1ï¼šæ”¯å‡ºï¼Œ2ï¼šæ”¶å…¥ï¼‰
+	create_time	æ•°æ®åˆ›å»ºçš„æ—¶é—´
 
 
-¶©µ¥¹ÜÀí zxg_order
-	id		int	Ö÷¼üid
-	user_id		int	·¢²¼¶©µ¥µÄÓÃ»§µÄÖ÷¼üid
-	order_id	varchar	¶©µ¥ºÅ
-	game_id		int	ÓÎÏ·µÄÖ÷¼üid
-	game_area_id	int	ÓÎÏ·ÇøµÄÖ÷¼üid
-	game_server_id	int	ÓÎÏ··şµÄÖ÷¼üid
-	game_type_id	int	´úÁ·ÀàĞÍµÄÖ÷¼üid
-	title		varchar	¶©µ¥±êÌâ
-	price		decimal	¶©µ¥¼Û¸ñ
-	bond_safe	decimal	¶©µ¥°²È«±£ÏÕ½ğ
-	bond_eff	decimal	¶©µ¥Ğ§ÂÊ±£ÏÕ½ğ
-	timelimit_day	int	¶©µ¥Ê±ÏŞ£¬µ¥Î»Ìì
-	timelimit_hour	int	¶©µ¥Ê±ÏŞ£¬µ¥Î»Ğ¡Ê±
-	account		varchar	ÓÎÏ·ÕËºÅ
-	account_pwd	varchar	ÓÎÏ·ÃÜÂë
-	role_name	varchar	½ÇÉ«Ãû
-	order_pwd	varchar	¶©µ¥¼ÓÃÜ£¬ÓÃÓÚÖ¸¶¨´òÊÖ½Óµ¥
-	game_info	text	ÓÎÏ·ĞÅÏ¢
-	game_initPic	varchar ÓÎÏ·³õÊ¼×´Ì¬£¬ÉÏ´«Í¼Æ¬
-	require_info	text	´úÁ·ÒªÇó
-	remark		text	±¸×¢£¬½ö×Ô¼º¿É¼û
-	link_man	varchar	ÁªÏµÈË£¬Ä¬ÈÏÓÎÏ·êÇ³Æ£¬¿É×Ô¶¨Òå
-	link_phone	varchar	ÁªÏµµç»°
-	link_qq		varchar	ÁªÏµqq
-	is_top		int	ÊÇ·ñÖÃ¶¥
-	create_time	int	¶©µ¥´´½¨Ê±¼ä
-	finish_time	int	¶©µ¥Íê³ÉÊ±¼ä
-	status		int	¶©µ¥×´Ì¬£¬£¨0£º´ı½Óµ¥£¬1£º´úÁ·ÖĞ£¬2£ºÒÑ½áËã£©
+è®¢å•ç®¡ç† zxg_order
+	id		int	ä¸»é”®id
+	user_id		int	å‘å¸ƒè®¢å•çš„ç”¨æˆ·çš„ä¸»é”®id
+	order_id	varchar	è®¢å•å·
+	game_id		int	æ¸¸æˆçš„ä¸»é”®id
+	game_area_id	int	æ¸¸æˆåŒºçš„ä¸»é”®id
+	game_server_id	int	æ¸¸æˆæœçš„ä¸»é”®id
+	game_type_id	int	ä»£ç»ƒç±»å‹çš„ä¸»é”®id
+	title		varchar	è®¢å•æ ‡é¢˜
+	price		decimal	è®¢å•ä»·æ ¼
+	bond_safe	decimal	è®¢å•å®‰å…¨ä¿é™©é‡‘
+	bond_eff	decimal	è®¢å•æ•ˆç‡ä¿é™©é‡‘
+	timelimit_day	int	è®¢å•æ—¶é™ï¼Œå•ä½å¤©
+	timelimit_hour	int	è®¢å•æ—¶é™ï¼Œå•ä½å°æ—¶
+	account		varchar	æ¸¸æˆè´¦å·
+	account_pwd	varchar	æ¸¸æˆå¯†ç 
+	role_name	varchar	è§’è‰²å
+	order_pwd	varchar	è®¢å•åŠ å¯†ï¼Œç”¨äºæŒ‡å®šæ‰“æ‰‹æ¥å•
+	game_info	text	æ¸¸æˆä¿¡æ¯
+	game_initPic	varchar æ¸¸æˆåˆå§‹çŠ¶æ€ï¼Œä¸Šä¼ å›¾ç‰‡
+	require_info	text	ä»£ç»ƒè¦æ±‚
+	remark		text	å¤‡æ³¨ï¼Œä»…è‡ªå·±å¯è§
+	link_man	varchar	è”ç³»äººï¼Œé»˜è®¤æ¸¸æˆæ˜µç§°ï¼Œå¯è‡ªå®šä¹‰
+	link_phone	varchar	è”ç³»ç”µè¯
+	link_qq		varchar	è”ç³»qq
+	is_top		int	æ˜¯å¦ç½®é¡¶
+	create_time	int	è®¢å•åˆ›å»ºæ—¶é—´
+	finish_time	int	è®¢å•å®Œæˆæ—¶é—´
+	status		int	è®¢å•çŠ¶æ€ï¼Œï¼ˆ0ï¼šå¾…æ¥å•ï¼Œ1ï¼šä»£ç»ƒä¸­ï¼Œ2ï¼šå·²ç»“ç®—ï¼‰
 
 
 
-ÓÎÏ·¹ÜÀí zxg_game
-	id		int	ÓÎÏ·Ö÷¼üid
-	name		varchar	ÓÎÏ·µÄÃû³Æ
-	image_src	varchar	ÓÎÏ·Í¼Æ¬
-	count		int	ÓÎÏ·´úÁ·Êı
-	cate_id		int	ÓÎÏ·ÀàĞÍ£¬£¨0£º¶ËÓÎ£¬1£ºÊÖÓÎ£©
+æ¸¸æˆç®¡ç† zxg_game
+	id		int	æ¸¸æˆä¸»é”®id
+	name		varchar	æ¸¸æˆçš„åç§°
+	image_src	varchar	æ¸¸æˆå›¾ç‰‡
+	count		int	æ¸¸æˆä»£ç»ƒæ•°
+	cate_id		int	æ¸¸æˆç±»å‹ï¼Œï¼ˆ0ï¼šç«¯æ¸¸ï¼Œ1ï¼šæ‰‹æ¸¸ï¼‰
 
-´úÁ·ÀàĞÍ zxg_game_type
-	id		int	´úÁ·ÀàĞÍÖ÷¼üid
-	name 		varchar	´úÁ·ÀàĞÍÃû³Æ
-	game_id		varchar	ÓÎÏ·µÄÖ÷¼üid
+ä»£ç»ƒç±»å‹ zxg_game_type
+	id		int	ä»£ç»ƒç±»å‹ä¸»é”®id
+	name 		varchar	ä»£ç»ƒç±»å‹åç§°
+	game_id		varchar	æ¸¸æˆçš„ä¸»é”®id
 
-ÓÎÏ·Çø¹ÜÀí	zxg_game_area
-	id		int	ÓÎÏ·ÇøÖ÷¼üid
-	name		varchar	ÓÎÏ·ÇøµÄÃû³Æ
-	game_id		int	ÓÎÏ·µÄÖ÷¼üid
+æ¸¸æˆåŒºç®¡ç†	zxg_game_area
+	id		int	æ¸¸æˆåŒºä¸»é”®id
+	name		varchar	æ¸¸æˆåŒºçš„åç§°
+	game_id		int	æ¸¸æˆçš„ä¸»é”®id
 
-ÓÎÏ··ş¹ÜÀí	zxg_game_server
-	id		int	ÓÎÏ··şµÄÖ÷¼üid
-	name		varchar	ÓÎÏ··şµÄÃû³Æ
-	area_id		int	ÓÎÏ·ÇøµÄÖ÷¼üid	
+æ¸¸æˆæœç®¡ç†	zxg_game_server
+	id		int	æ¸¸æˆæœçš„ä¸»é”®id
+	name		varchar	æ¸¸æˆæœçš„åç§°
+	area_id		int	æ¸¸æˆåŒºçš„ä¸»é”®id	
 	
 
 2222222
 
+12121121221
 
 
 
